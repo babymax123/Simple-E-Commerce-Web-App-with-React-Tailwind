@@ -49,14 +49,14 @@ Follow the steps below to run this project locally.
 1️⃣ Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
 2️⃣ Navigate to the project folder
-bash
+
 cd your-repo-name
 3️⃣ Install dependencies
 Make sure Node.js (v16 or higher) is installed.
-bash
+
 npm install
 4️⃣ Run the development server
-bash
+
 npm run dev
 5️⃣ Open in your browser
 After the server starts, open:
