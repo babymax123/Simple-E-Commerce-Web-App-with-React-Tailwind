@@ -40,5 +40,15 @@ This project demonstrates how to build a small online store with **reusable comp
 - **HTML5**
 
 ---
-
-## 📂 Project Structure
+🚀 Getting Started ........
+1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+2️⃣ Install dependencies
+bash
+Salin kode
+npm install
+3️⃣ Run the development server
+bash
+Salin kode
+npm run dev
