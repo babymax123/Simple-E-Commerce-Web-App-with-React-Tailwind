@@ -1,110 +1,16 @@
-📌 Project Overview
+# React + Vite
 
-This project is a simple e-commerce web application built using React and Tailwind CSS.
-It simulates a small household goods store where users can browse products, add items to a cart, and manage stock dynamically.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The main goal of this project is to practice component-based architecture, state management, and clean UI design using modern frontend tools.
+Currently, two official plugins are available:
 
-✨ Key Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Product catalog with categories
+## React Compiler
 
-Reusable UI components (Card, Badge, Button)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Shopping cart functionality
+## Expanding the ESLint configuration
 
-Dynamic stock management (stock decreases when items are added to cart)
-
-Stock status display (available / out of stock)
-
-Disabled add-to-cart button when stock is empty
-
-Responsive layout using Tailwind CSS
-
-Clean and modular folder structure
-
-🧱 Tech Stack
-
-React (Vite)
-
-JavaScript (ES6+)
-
-Tailwind CSS
-
-HTML5
-
-CSS Utility-First Design
-
-📂 Project Structure
-src/
- ├── components/
- │   └── ui/
- │       ├── Card.jsx
- │       ├── Badge.jsx
- │       ├── Input.jsx
- │       └── Row.jsx
- ├── pages/
- │   ├── Shop.jsx
- │   ├── Checkout.jsx
- │   └── Success.jsx
- ├── data/
- │   ├── products.js
- │   └── store.js
- ├── utils/
- │   └── rupiah.js
- ├── App.jsx
- └── main.jsx
-
-🔄 Stock Management Logic
-
-Initial stock is defined in products.js
-
-Stock is stored in React state (stockMap)
-
-When a user adds an item to the cart:
-
-Cart quantity increases
-
-Product stock decreases
-
-When stock reaches zero:
-
-The product is marked as out of stock
-
-The “Add to Cart” button is disabled
-
-This approach ensures consistent data handling between the cart and product inventory.
-
-🎨 UI Design Principles
-
-Reusable Components: UI elements such as Card and Badge are reusable across pages
-
-Separation of Concerns: UI, logic, and data are separated into different folders
-
-Utility-First Styling: Tailwind CSS is used for fast and consistent styling
-
-Minimal & Clean Layout: Designed for clarity and ease of use
-
-🚀 Future Improvements
-
-Integrate a real payment gateway (Midtrans / Xendit)
-
-Add product images
-
-Persist cart and stock data using backend or local storage
-
-Add authentication (admin & user roles)
-
-Improve accessibility (ARIA support)
-
-📚 Learning Outcomes
-
-This project helped me understand:
-
-React component composition
-
-State management without external libraries
-
-UI consistency using reusable components
-
-Basic e-commerce logic (cart & stock synchronization)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
