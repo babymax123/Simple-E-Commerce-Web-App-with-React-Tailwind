@@ -45,9 +45,8 @@ This project demonstrates how to build a small online store with **reusable comp
 Follow the steps below to run this project locally.
 
 ### 
-bash
-1️⃣ Clone the repository
 ```bash
+1️⃣ Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
 2️⃣ Navigate to the project folder
 bash
