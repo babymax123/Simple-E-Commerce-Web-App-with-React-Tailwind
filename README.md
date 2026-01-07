@@ -42,14 +42,13 @@ This project demonstrates how to build a small online store with **reusable comp
 ---
 🚀 Getting Started ........
 ---
-
-1️⃣ Clone the repository
+1️⃣ Clone the repository---
 git clone https://github.com/your-username/your-repo-name.git
 ---
 
-2️⃣ Install dependencies
+2️⃣ Install dependencies---
 npm install
 ---
 
-3️⃣ Run the development server
+3️⃣ Run the development server---
 npm run dev
