@@ -14,3 +14,31 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+A clean and lightweight **e-commerce web application** built with **React** and **Tailwind CSS**.  
+This project demonstrates how to build a small online store with **reusable components**, **shopping cart logic**, and **dynamic stock management**.
+
+---
+
+## ✨ Features
+
+- 📦 Product catalog with categories  
+- 🛍️ Add to cart & remove from cart  
+- 📉 Real-time stock updates  
+- 🚫 Disable add-to-cart when stock is empty  
+- ♻️ Reusable UI components (Card, Badge, Input)  
+- 📱 Responsive layout (mobile & desktop)  
+- 🎨 Clean and modern UI using Tailwind CSS  
+
+---
+
+## 🧱 Tech Stack
+
+- **React (Vite)**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **HTML5**
+
+---
+
+## 📂 Project Structure
